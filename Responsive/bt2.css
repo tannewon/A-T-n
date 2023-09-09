@@ -7,80 +7,38 @@
 .vtc{
     background-color: aquamarine;
     padding: 10px;
-    line-top: 20px;
+
     
 
 }
 .bang{
     background-color: antiquewhite;
     display: flex;
-    gap:10px;
+    gap:30px;
     padding: 10px;
 
 }
 img{
-    width: 460px;
+    width: 455px;
     height: 300px;
+    border-radius: 5px;
 }
-body{
-    background-color: grey;
-}
-@media screen and(max-width:950px) {
-    .vtc{
-        background-color: aquamarine;
-        padding: 10px;
-        
-    }
-    .bang{
-        background-color: antiquewhite;
-        display: flex;
-        gap:10px;
-        padding: 10px;
-    
-    }
-    img{
-        width: 460px;
-        height: 300px;
-    }
-    
 
-    }
-@media screen and(max-width:600px) {
-    .vtc{
-        background-color: aquamarine;
+
+@media screen and (max-width: 760px) {
+
+    .vtc {
         padding: 10px;
-        /* line-top: 20px; */
     }
-    .bang{
-        background-color: antiquewhite;
-        display: flex;
-        gap:10px;
+
+    .bang {
+        display:grid;
         padding: 10px;
-    
     }
-    img{
-        width: 460px;
-        height: 300px;
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
     }
-}
-@media screen and(max-width:300px) {
-    .vtc{
-        background-color: aquamarine;
-        padding: 10px;
-        /* line-top: 20px; */
-    }
-    .bang{
-        background-color: antiquewhite;
-        display: flex;
-        gap:10px;
-        padding: 10px;
-    
-    }
-    img{
-        width: 460px;
-        height: 300px;
-    }
-}
-.bang-1 p {
-    margin-top: 10px;
 }
